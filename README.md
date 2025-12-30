@@ -10,3 +10,15 @@
 4. Every merge requires both devs to review
 
 5. If something is unclear → stop & align
+
+## Architecture
+
+Mobile App (single app, role-based)
+        |
+        | REST APIs (JSON)
+        |
+Backend (Node + Express)
+        |
+PostgreSQL Database
+        |
+Web Dashboard (Manager / Owner)
