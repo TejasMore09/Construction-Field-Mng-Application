@@ -1,14 +1,12 @@
 # Construction-Field-Mng-Application
 # Rules ~
 
-One active part at a time
+1. One active part at a time, No jumping ahead
 
-No jumping ahead
+2. One feature branch per part
 
-One feature branch per part
+3. No direct commits to main
 
-No direct commits to main
+4. Every merge requires both devs to review
 
-Every merge requires both devs to review
-
-If something is unclear → stop & align
+5. If something is unclear → stop & align
