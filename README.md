@@ -24,3 +24,12 @@ Backend (Node.js + Express)
 PostgreSQL Database
         |
 Web Dashboard (Manager / Owner)
+
+### Architecture Principles
+
+- Single mobile application for all field roles
+- Role-based access and UI rendering
+- Offline-first mobile experience
+- Backend acts as the single source of truth
+- Data created by workers/engineers requires approval
+- Only approved data is reflected in dashboards
