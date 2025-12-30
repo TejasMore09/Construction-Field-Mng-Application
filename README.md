@@ -13,11 +13,13 @@
 
 ## Architecture
 
-Mobile App (single app, role-based)
+### High-Level Architecture
+
+Mobile App (Single App – Role Based)
         |
         | REST APIs (JSON)
         |
-Backend (Node + Express)
+Backend (Node.js + Express)
         |
 PostgreSQL Database
         |
