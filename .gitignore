@@ -1,0 +1,34 @@
+# =====================
+# Node / JS
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Environment variables
+# =====================
+.env
+
+# =====================
+# Expo / React Native
+# =====================
+.expo/
+.expo-shared/
+*.jks
+*.keystore
+
+# =====================
+# Build outputs
+# =====================
+dist/
+build/
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
