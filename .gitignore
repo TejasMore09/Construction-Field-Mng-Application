@@ -5,11 +5,17 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+*.log
 
 # =====================
 # Environment variables
 # =====================
 .env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
 
 # =====================
 # Expo / React Native
@@ -18,12 +24,15 @@ yarn-error.log*
 .expo-shared/
 *.jks
 *.keystore
+android/
+ios/
 
 # =====================
 # Build outputs
 # =====================
 dist/
 build/
+coverage/
 
 # =====================
 # OS / Editor
