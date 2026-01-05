@@ -6,7 +6,7 @@ require('dotenv').config();
 const register = async (req, res) => {
     const { name, email, password, role } = req.body;
 
-    try {
+    try { 
         // Check if user already exists
         const userExist = await pool.query('SELECT * FROM users WHERE email=$1', [email]);
         if (userExist.rows.length > 0) {
